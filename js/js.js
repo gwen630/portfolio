@@ -27,10 +27,11 @@ var swiper = new Swiper(".navSwiper", {
   },
 });
 
+
 /* s3 menu slider */
 var swiper2 = new Swiper(".s3Swiper", {
   slidesPerView: "auto",
-  spaceBetween: 60,
+  spaceBetween: 50,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
