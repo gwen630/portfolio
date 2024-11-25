@@ -23,7 +23,8 @@
     z-index:2;
   }
 
-
+  .nav { margin-bottom: 50px;  position:sticky; top:-10px; z-index:50; }
+  .nav:after { position:absolute; content:""; width: 335px; height: 50px; background:black; top:-10px; border-top-right-radius: 20px;}
 
 
   .statusBar { 
